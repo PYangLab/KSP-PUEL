@@ -1,6 +1,8 @@
 # KSP-PUEL
 Positive-unlabeled ensemble learning for kinase substrate prediction from phosphoproteomics data
 
+## for details of the GUI implementation, please refer to the document KSP-PUEL GUI documentation.
+
 #### Description
 Positive-unlabeled ensemble learning (PUEL) for kinase substrate prediction (KSP-PUEL) is a set of R codes and phosphoproteomics data used for predicting novel substrates of kinases of interest.
 
