@@ -1,14 +1,14 @@
 # KSP-PUEL
-Positive-unlabeled ensemble learning for kinase substrate prediction from phosphoproteomics data
+## Positive-unlabeled ensemble learning for kinase substrate prediction from dynamic phosphoproteomics data
 
-## for details of the GUI implementation, please refer to the document: "KSP-PUEL GUI documentation.docx".
+#### for details of the GUI implementation, please refer to the document: "KSP-PUEL GUI documentation.docx".
 
 #### Description
-Positive-unlabeled ensemble learning (PUEL) for kinase substrate prediction (KSP-PUEL) is a set of R codes and phosphoproteomics data used for predicting novel substrates of kinases of interest.
+Positive-unlabeled ensemble learning (PUEL) for kinase substrate prediction (KSP-PUEL) is an application developed for predicting novel substrates of kinases of interest.
 
-Current version includes the prediction R function and a phosphoproteomics data generated from insulin pathway profiling study. The following two examples show how the prediction code can be used for predicting Akt and mTOR substrates.
+Current version includes an GUI version and an R function version. <font color='red'>For details on how to use the GUI verion, please refer to the document "KSP-PUEL GUI documentation.docx". <\font> The following two examples show how the R function can be used for predicting Akt and mTOR substrates.
 
-Suppose "PUEL.R" and "InsulinPhospho.RData" files are in the current directory, type the following in R to load the data and the prediction function:
+Download "PUEL.R" and "InsulinPhospho.RData" files from the folder "R package". Suppose "PUEL.R" and "InsulinPhospho.RData" files are in the current directory, type the following in R to load the data and the prediction function:
 
 ```r
 source("PUEL.R")
